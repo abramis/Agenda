@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+h2{margin:12px; }
+div{margin:12px;}
+span
+{
+display:block;
+width:340px;
+padding:10px;
+border:5px solid gray;
+margin:8px; 
+}
+</style>
+<title>Import contact</title>
+</head>
+<body>
+<h2>Import form</h2>
+<div>(*)required</div>
+<form action="insert.php" method="post">
+<span>*First Name: <input type="text" name="first" placeholder="your firstname" required autofocus ></span>
+<span>*Last Name: <input type="text" name="last" placeholder="your lastname" required autofocus ></span>
+<span>*Phone: <input type="number" name="phone" placeholder="ex: 2103232100" required></span>
+<span>Mobile: <input type="number" name="mobile" placeholder="ex: 69xxxxxxx"></span>
+<span>Fax: <input type="number" name="fax" placeholder="ex: 2103232100"></span>
+<span>E-mail: <input type="email" name="email" placeholder="example@domain.com"></span>
+<span>Web: <input type="url" name="web" placeholder="http://site.com" ></span>
+<input type="Submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>
